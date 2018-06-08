@@ -1,0 +1,56 @@
+/* Reset Margin, Padding and Borders */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* Default Styles */
+html,
+body{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#navigation-top{
+  display: none;
+}
+/* Banner Styles */
+.banner{
+  height: 17rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+}
+
+.banner-headline{
+  font-size: 1rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 9rem;
+  text-transform: uppercase;
+}
+/* Header Styles */
+.header{
+  display: flex;
+  background-color: cadetBlue;
+}
+
+.header .brand-logo img{
+  height: 1.5rem;
+  margin: 1rem 1rem 1rem 2rem
+}
+
+.header #responsive-menu{
+  padding: 1rem;
+  position: fixed;
+  right: 2rem;
+
+}
+
+.header #responsive-menu a{
+  text-decoration: none;
+  color: #fff;
+}
