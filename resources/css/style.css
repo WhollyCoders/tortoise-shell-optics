@@ -22,6 +22,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20%;
+  padding-top: 9rem;
 }
 
 .banner-headline{
@@ -36,6 +37,9 @@ body{
 .header{
   display: flex;
   background-color: cadetBlue;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .header .brand-logo img{
@@ -53,4 +57,56 @@ body{
 .header #responsive-menu a{
   text-decoration: none;
   color: #fff;
+}
+
+/* Feature Styles */
+.featured-content{
+  text-align: center;
+}
+.featured-wrapper{
+  padding: 3.77rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature img{
+  width: 5rem;
+  height: auto;
+}
+
+#first-feature{
+  width: 3.5rem;
+  height: auto;
+}
+
+.feature-caption{
+  display: block;
+  font-size: 0.77rem;
+  margin-bottom: 1.54rem;
+}
+
+.section-heading{
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetBlue;
+  color: #fff;
+  padding: 0.5rem 1.25rem 0.5rem 0;
+  text-align: center;
+}
+
+.section-content{
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-size: 0.77rem;
+  padding: 0 1rem;
+}
+
+.footer{
+  background-color: azure;
+  text-align: center;
+}
+
+.footer-wrapper img{
+  margin: 4rem 0;
+  height: 1.5rem;
 }
